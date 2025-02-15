@@ -7,11 +7,19 @@
 </head>
 
 <!--Moduled Js scripts-->
-  <script type = "module" src="./MOD_3.js" ></script>  
-  <script type = "module" src="./MOD_2.js" ></script>
+  <script type = "module" src="./EXPORTS/MODS/MOD_3.js" ></script>  
+  <script type = "module" src="./EXPORTS/MODS/MOD_2.js" ></script>
   <script type = "module" src="./IMPORTS/JS_MODULE_TESTING.js" ></script>
 
 <!--MAIN EXPORTS-->
+  <script src="./EXPORTS/MAIN/AUTHORIZED.js"></script>
+
+<!--MULTI GROUP EXPORTS-->  
+<script src="./EXPORTS/GROUP/MULTI_DECLARATION_EXPORT.js"></script>
+
+<!--DIFFERENT JS FILE EXPORTS-->
+<script src="./EXPORTS/RANDOM/SHELL.js"></script>
+<script src="./EXPORTS/RANDOM/WANTED.js"></script>
 
 <!--CONGREGATION EXPORTS-->
   <script src="./EXPORTS/CONGREGATION/ALL_CONGREGATE.js" ></script>
@@ -19,17 +27,24 @@
   <script src="./EXPORTS/CONGREGATION/EXPORT_FOR_ALL_CONGREGATE.js" ></script>
   <script src="./EXPORTS/CONGREGATION/EXPORT_FOR_CONGREGATION.js" ></script>
  
-<!--DIFFERENT JS FILE EXPORTS-->
-  <script src="EXPORTS/RANDOM/SHELL.js"></script>
-  <script src="EXPORTS/RANDOM/SHELL.js"></script>
-
-<!--MULTI EXPORTS-->  
-  <script src="../MORE_JS_FILES/MULTI_DECLARATION_EXPORT.js"></script>
-  
 <!--EXPORT WITH DEFAULT KEYWORD FILES-->
-  <script src="../MORE_JS_FILES/DEFAULT_EXPORT_NAMING.js"></script>
-  <script src="../MORE_JS_FILES/DEFAULT_DEFAULT_NAME.js"></script>
-  <script src="../MORE_JS_FILES/MULTI_DEFAULT_EXPORTING.js"></script>
+<script src="./EXPORTS/DEFAULT/DEFAULT_EXPORT_NAMING.js"></script>
+<script src="./EXPORTS/DEFAULT/DEFAULT_NAME.js"></script>
+<script src="./EXPORTS/DEFAULT/MULTI_DEFAULT_EXPORTING.js"></script>
+
+<!--OUTER JS FILE EXPORTS-->
+
+  <!--EXTERNAL JS FILE EXPORTS-->
+
+    <script src="./EXPORTS/OUTER/EXTERNAL_MODULES/EXTERNAL_HTMT.html"></script>
+    <script src="./EXPORTS/OUTER/EXTERNAL_MODULES/EXTERNAL_JS_FILE.js"></script>
+    <script src="./EXPORTS/OUTER/EXTERNAL_MODULES/EXTERNAL_MODULE_JS_FILE.js"></script>
+
+  <!--UNLINKED JS FILE EXPORTS-->
+  
+    <script src="./EXPORTS/OUTER/UNLINKED_ONLY_JS_FILES/UNLINKED_JS_FILE.js"></script>
+
+
 
   
 
