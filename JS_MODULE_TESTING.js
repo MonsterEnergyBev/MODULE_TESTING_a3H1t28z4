@@ -8,7 +8,7 @@
   
   //❌can u only export to 1 other "module js file" at a time? can u only import
 
-import {plank,boosted} from "../EXPORTS/MODS/MOD_2.js"
+import {plank,boosted} from "./EXPORTS/MODS/MOD_2.js"
 console.log(plank)
 console.log(boosted)
 
